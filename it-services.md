@@ -5,4 +5,8 @@ permalink: /it-services/
 bannerimg: /img/demoart.png
 ---
 
-IT Services
+Aimed entirely at the county
+
+- Computer diagnosis and repair
+- Learning how to use
+- Linux, LibreOffice, etc.
