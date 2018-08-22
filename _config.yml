@@ -1,0 +1,38 @@
+safe:        false
+port:        4001
+
+source:      .
+destination: ./_site
+
+future:      true
+lsi:         false
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+permalink:   /:year/:month/:title
+
+title:       Wickerbox Electronics
+description: Hardware Prototyping
+author:      Jenner Hanni
+email:       jenner@wickerbox.net
+
+exclude:     [_site]
+
+collections: 
+  projects:
+    name: Projects
+    url: /projects/
+    output: true
+    permalink: /projects/:title/
+  breakout-boards:
+    name: Breakout-boards
+    url: /breakout-boards/
+    output: true
+  techblog:
+    name: Notebook 
+    url: /notebook/
+    output: true
+    permalink: /notebook/:title/
+  kicad-workflow:
+    name: KiCad Workflow
+    url: /kicad-workflow/
+    output: true
+    permalink: /kicad-workflow/:title/
