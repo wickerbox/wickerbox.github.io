@@ -13,7 +13,7 @@ header {
   width: 100%;
   border-bottom: 1px solid #888;
   line-height: 60px;
-  heigth: 60px;
+  height: 60px;
   margin: 20px 0;
   color: #333;
 }
@@ -21,6 +21,12 @@ header {
 header h1 {
   margin: 0;
   font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+header h1 a,
+header h1 a:visited {
+  color: #333;
+  text-decoration: none;
 }
 
 nav ul {
@@ -42,6 +48,14 @@ nav li {
   border-radius: 10px;
   border: 1px solid #999;
   padding: 5px 10px;
+}
+
+.banner {
+  max-width: 100%;
+}
+
+h2 {
+  text-align: center;
 }
 
 a.btn, 
