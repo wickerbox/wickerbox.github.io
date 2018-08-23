@@ -2,25 +2,13 @@
 layout: default
 ---
 
-  <nav>
-    <ul>
-      <li><a href="/web-design/">Web Design</a></li>
-      <li><a href="/hardware/">Hardware Prototypes</a></li>
-      <li><a href="/it-services/">IT Services</a></li>
-    </ul>
-  </nav>
-
-  {% if page.bannerimg %}
-  <section>
-    <img class="banner" src="{{ page.bannerimg }}">
-  </section>
-  {% endif %}
-
   <section>
 
     <h2>{{ page.title }}</h2>
 
-    {{ content }}
+    <div class="flex-container">
+      {{ content }}
+    </div>
 
   </section>
 

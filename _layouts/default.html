@@ -11,23 +11,39 @@
 
   <link rel="stylesheet" href="{{site.baseurl}}/css/style.css">
 
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Raleway" rel="stylesheet">
 
 </head>
 <body>
 
   <header>
-    <div class="search">
-      <a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
-      </a>
+    <div class="contact">
+      <a class="btn" href="https://github.com/wickerbox/"
+        target="_blank">Github</a>
     </div>
     <h1><a href="/">Wickerbox Electronics</a></h1>
     <div class="contact">
       <a class="btn" href="mailto:sales@wickerbox.net">Contact</a>
     </div>
   </header>
+
+  <nav>
+    <ul>
+      <li><a href="/web-design/">Web Design</a></li>
+      <li><a href="/hardware/">Hardware Prototypes</a></li>
+      <li><a href="/it-services/">IT Services</a></li>
+    </ul>
+  </nav>
+
+  <section>
+  {% if page.bannerimg %}
+  <!--<img class="banner" src="{{ page.bannerimg }}">-->
+  <img class="banner" src="/img/placeholder.png">
+  {% else %}
+    <img class="banner" src="/img/placeholder.png">
+  {% endif %}
+  </section>
 
   {{ content }}
 

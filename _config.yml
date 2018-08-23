@@ -19,20 +19,20 @@ exclude:     [_site]
 collections: 
   projects:
     name: Projects
-    url: /projects/
+    url: /hardware/projects/
     output: true
     permalink: /projects/:title/
   breakout-boards:
     name: Breakout-boards
-    url: /breakout-boards/
+    url: /hardware/breakout-boards/
     output: true
-  techblog:
-    name: Notebook 
-    url: /notebook/
+  using-kicad:
+    name: How we use KiCad 
+    url: /hardware/using-kicad/
     output: true
-    permalink: /notebook/:title/
-  kicad-workflow:
-    name: KiCad Workflow
-    url: /kicad-workflow/
+    permalink: /hardware/using-kicad/:title/
+  automating-kicad:
+    name: KiFisher 
+    url: /hardware/automating-kicad/
     output: true
-    permalink: /kicad-workflow/:title/
+    permalink: /hardware/automating-kicad/:title/
