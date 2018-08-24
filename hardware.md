@@ -5,7 +5,7 @@ permalink: /hardware/
 bannerimg: /img/hardware.png
 ---
 
-Wickerbox is a small hardware design company in Joseph, Oregon, specializing in developing the physical prototype you need for investors or crowdfunding. We can take you from a wire-stuffed breadboard to a production-ready custom printed circuit board.
+Wickerbox is a hardware design company in Joseph, Oregon, specializing in developing the physical prototype you need for investors or crowdfunding. We can take you from a wire-stuffed breadboard to a production-ready custom printed circuit board.
 
 We work on both closed and open source projects of all kinds, from a cellphone to the [Lego-compatible Crazy Circuits](https://www.kickstarter.com/projects/browndoggadgets/crazy-circuits-unique-stem-projects-delivered-mont) educational kits. 
 
