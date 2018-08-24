@@ -10,44 +10,11 @@ layout: default
       <li><a href="/hardware/">Services</a></li>
       <li><a href="/hardware/projects/">Projects</a></li>
       <li><a href="/hardware/breakout-boards/">Breakout Boards</a></li>
-      <br /><li>&raquo; <a href="/hardware/using-kicad/">Using Kicad</a></li>
-      <li>&raquo; <a href="/hardware/automating-kicad/">Automating KiCad</a></li>
     </ul>
-
-    {% if page.using-kicad %}
-    <h4>Using KiCad</h4>
-    <ol>
-      {% for article in site.using-kicad %}
-      <li><a href="{{ article.url }}">{{ article.title }}</a></li>
-      {% endfor %}
-    </ol>
-    {% endif %}
-
-    {% if page.automating-kicad %}
-    <h4>Automating KiCad</h4>
-    <ol>
-      {% for article in site.automating-kicad %}
-      <li><a href="{{ article.url }}">{{ article.title }}</a></li>
-      {% endfor %}
-    </ol>
-    {% endif %}
-
   </div>
 
   <div class="content">
-    {% if page.automating-kicad %}
-    <hgroup>
-      <h2>Automating KiCad</h2>
-      <h3>{{ page.title }}</h3>
-    </hgroup>
-    {% elsif page.using-kicad %}
-    <hgroup>
-      <h2>Using KiCad</h2>
-      <h3>{{ page.title }}</h3>
-    </hgroup>
-    {% else %}
     <h2>{{ page.title }}</h2>
-    {% endif %}
     {{ content }}
   </div>
 </div>
