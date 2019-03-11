@@ -72,8 +72,12 @@ header h1 a:visited {
 
 a.btn, 
 a.btn:visited {
-  color: #555;
+  color: #951d20;
   text-decoration: none;
+}
+
+a.btn:hover {
+  background-color: #cfcfcf;
 }
 
 /* Nav */
@@ -166,7 +170,7 @@ table {
 
 .webthumb img {
   border-radius: 0px;
-  height: 100px;
+  height: 150px;
   min-width: 200px;
   width: 100%;
 }
